@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6507A193-1B43-482C-B895-2367F3151323}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6B6EC44B-4DFD-4FC9-85D3-0867AF73C3B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{B182D153-5837-48C2-99D8-48693FB32983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4BFF7438-338C-4029-B6B5-2F203879C400}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tera.Domain", "Tera.Domain\Tera.Domain.csproj", "{26C3B3BF-33CB-4B1B-BA38-C6D396FDECCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tera.WebApi", "Tera.WebApi\Tera.WebApi.csproj", "{8F3EB988-7EFB-4D80-8E62-21B86F3FC619}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tera.Infrastructure", "Tera.Infrastructure\Tera.Infrastructure.csproj", "{23952B39-90B8-4E5A-A364-D319B894D8A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tera.Application", "Tera.Application\Tera.Application.csproj", "{EB36A362-80A5-4E1A-868F-0BBBB4057252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26C3B3BF-33CB-4B1B-BA38-C6D396FDECCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C3B3BF-33CB-4B1B-BA38-C6D396FDECCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C3B3BF-33CB-4B1B-BA38-C6D396FDECCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C3B3BF-33CB-4B1B-BA38-C6D396FDECCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3EB988-7EFB-4D80-8E62-21B86F3FC619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3EB988-7EFB-4D80-8E62-21B86F3FC619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3EB988-7EFB-4D80-8E62-21B86F3FC619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3EB988-7EFB-4D80-8E62-21B86F3FC619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23952B39-90B8-4E5A-A364-D319B894D8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23952B39-90B8-4E5A-A364-D319B894D8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23952B39-90B8-4E5A-A364-D319B894D8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23952B39-90B8-4E5A-A364-D319B894D8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB36A362-80A5-4E1A-868F-0BBBB4057252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB36A362-80A5-4E1A-868F-0BBBB4057252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB36A362-80A5-4E1A-868F-0BBBB4057252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB36A362-80A5-4E1A-868F-0BBBB4057252}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B6EC44B-4DFD-4FC9-85D3-0867AF73C3B8} = {6507A193-1B43-482C-B895-2367F3151323}
+		{B182D153-5837-48C2-99D8-48693FB32983} = {6507A193-1B43-482C-B895-2367F3151323}
+		{4BFF7438-338C-4029-B6B5-2F203879C400} = {6507A193-1B43-482C-B895-2367F3151323}
+		{26C3B3BF-33CB-4B1B-BA38-C6D396FDECCD} = {6B6EC44B-4DFD-4FC9-85D3-0867AF73C3B8}
+		{8F3EB988-7EFB-4D80-8E62-21B86F3FC619} = {B182D153-5837-48C2-99D8-48693FB32983}
+		{23952B39-90B8-4E5A-A364-D319B894D8A6} = {4BFF7438-338C-4029-B6B5-2F203879C400}
+		{EB36A362-80A5-4E1A-868F-0BBBB4057252} = {6B6EC44B-4DFD-4FC9-85D3-0867AF73C3B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C6C970D-5FC2-4167-8CF7-DA61BB3B1A48}
+	EndGlobalSection
+EndGlobal
